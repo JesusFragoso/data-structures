@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "My Stack",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/stacks",
+            "program": "${workspaceRoot}/stacks/main",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "Compile Stacks Program",
+        },
+        {
+            "name": "My Queue",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/queues",
+            "program": "${workspaceRoot}/queues/main",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "Compile Queues Program",
+        },
+        {
+            "name": "My List",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/lists",
+            "program": "${workspaceRoot}/lists/main",
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "Compile Lists Program",
+        }
+    ]
+}
